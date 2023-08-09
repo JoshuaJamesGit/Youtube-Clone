@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.header__logo {
+    width: 100px;
+    height: 80px;
+    object-fit: contain;
+    margin-left: 5px;
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    width: 40%;
+
+
+}
+
+.header__input {
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+}
+
+.burgerMenu {
+    position: absolute;
+    top: 48px;
+    left: 8px;
+}
+
+.header__input>input {
+    flex: 1;
+    border: none;
+}
+
+.header__inputButton {
+    width: 100px;
+    background-color: #fafafa;
+    color: gray;
+
+}
+
+.header__icon {
+    margin-right: 5px;
+}
